@@ -1,0 +1,22 @@
+{
+  "name": "iot8",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasio21gg/iot08.git"
+  },
+  "author": "Hideo Hashimoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasio21gg/iot08/issues"
+  },
+  "homepage": "https://github.com/hasio21gg/iot08#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2"
+  }
+}
