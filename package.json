@@ -4,7 +4,8 @@
   "description": "description",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "browserify front/js/app.js -o front/dist/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/hasio21gg/iot08#readme",
   "dependencies": {
-    "body-parser": "^1.17.2"
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
   }
 }
